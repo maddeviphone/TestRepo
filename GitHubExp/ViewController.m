@@ -18,7 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSLog(@"");
+    NSLog(@"Hi This is ViewDidLoad");
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
