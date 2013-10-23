@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C328F09918184B5900B07308 /* TestData.m in Sources */ = {isa = PBXBuildFile; fileRef = C328F09818184B5900B07308 /* TestData.m */; };
 		C389A0C418159D4100CF492B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C389A0C318159D4100CF492B /* UIKit.framework */; };
 		C389A0C618159D4100CF492B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C389A0C518159D4100CF492B /* Foundation.framework */; };
 		C389A0C818159D4100CF492B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C389A0C718159D4100CF492B /* CoreGraphics.framework */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C328F09718184B5900B07308 /* TestData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestData.h; sourceTree = "<group>"; };
+		C328F09818184B5900B07308 /* TestData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestData.m; sourceTree = "<group>"; };
 		C389A0C018159D4100CF492B /* GitHubExp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubExp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C389A0C318159D4100CF492B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C389A0C518159D4100CF492B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -88,6 +91,8 @@
 				C389A0DB18159D4100CF492B /* ViewController.h */,
 				C389A0DC18159D4100CF492B /* ViewController.m */,
 				C389A0DE18159D4100CF492B /* ViewController.xib */,
+				C328F09718184B5900B07308 /* TestData.h */,
+				C328F09818184B5900B07308 /* TestData.m */,
 				C389A0CA18159D4100CF492B /* Supporting Files */,
 			);
 			path = GitHubExp;
@@ -176,6 +181,7 @@
 				C389A0D018159D4100CF492B /* main.m in Sources */,
 				C389A0D418159D4100CF492B /* AppDelegate.m in Sources */,
 				C389A0DD18159D4100CF492B /* ViewController.m in Sources */,
+				C328F09918184B5900B07308 /* TestData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +304,7 @@
 				C389A0E518159D4100CF492B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
